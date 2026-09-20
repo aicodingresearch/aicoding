@@ -1,5 +1,7 @@
 # Research Topics
 
+> **我们研究 agent 产出的可信判定，让 AI Coding 从个人工具变成可信赖的组织能力。**
+
 本页用于整理 AI Coding（Vibe Coding）/ Coding Agent 方向的研究背景、研究对象、核心问题与选题方向，重点服务实验室科研讨论与选题规划。
 
 本实验室聚焦学术与工程结合，尤其关注企业转向 AI Coding 过程中面临的共性技术问题，而非做纯理论研究。
