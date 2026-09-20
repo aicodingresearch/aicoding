@@ -99,4 +99,4 @@ Coding Agent 的效果高度依赖其获取和利用上下文的能力——上�
 实验室的部分实验与平台以公开仓库方式进行，可复核、可复跑，欢迎在入组之前就参与：
 
 - **[Agent Hi Tax](https://github.com/aicodingresearch/agent-hi-tax)**：一句 `hi` 到底消耗多少？对真实 agent harness 的 token、credits、配额与延迟做统一口径、可复核的持续观测。它是「可信验证与评测」问题的一个微型活案例——连最小交互的真实成本，都需要可复核的度量方法才能说清。欢迎按仓库说明提交你所用 harness 的观测数据。
-- **[HALF](https://github.com/keting/half)**（Human-AI Loop Framework）：实验室早期建设的人机协同多 Agent 编程实验平台，沉淀了任务分解、DAG 任务流、dev/test/review/eval 角色分工、handoff prompt 与人工审查节点等机制原型，是「多 Agent 与人机协作」「上下文工程」问题的早期实践载体。配套 [GitHub 协作规范](github-collaboration-workflow.md)。
+- **[HALF](https://github.com/keting/half)**（Human-AI Loop Framework）：实验室建设的人机协同多 Agent 编程实验平台，沉淀了任务分解、DAG 任务流、dev/test/review/eval 角色分工、handoff prompt 与人工审查节点等机制原型，是「多 Agent 与人机协作」「上下文工程」问题的早期实践载体。配套 [GitHub 协作规范](github-collaboration-workflow.md)。
