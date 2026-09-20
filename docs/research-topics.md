@@ -102,7 +102,7 @@ HALF（Human-AI Loop Framework）是实验室围绕 AI Coding / Coding Agent 方
 
 HALF 不是单纯的工程项目，而是服务于前述研究问题的实验基础设施：
 
-1. **人机分工边界**：通过人工确认、阶段性审查节点、执行结果追踪等机制，研究人在 AI Coding 流程中的介入时机、控制方式与责任边界。
+1. **人的介入与控制**：通过人工确认、阶段性审查节点、执行结果追踪等机制，研究人在 AI Coding 流程中的介入时机、控制方式与责任边界（对应「多 Agent 与人机协作」的人侧问题）。
 2. **上下文工程**：通过任务上下文组织、handoff prompt、结构化任务记录与历史经验沉淀等机制，研究上下文组织、压缩、传递与复用方法。
 3. **多 Agent 协作**：通过 DAG 任务流、process template、dev/test/review/eval agent 角色，研究多 Agent 分工、协作、冲突处理和质量保障机制。
 4. **组织级 AI Coding 方法论**：通过真实 Git 工作流、issue/branch/PR 协作、agent 可用性管理等机制，探索企业软件开发流程向 AI Native 模式转型的方法。
