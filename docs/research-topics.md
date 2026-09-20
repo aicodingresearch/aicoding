@@ -94,22 +94,9 @@ Coding Agent 的效果高度依赖其获取和利用上下文的能力——上�
 - 避免垂类模型式风险——通用基模能力覆盖垂类后，多年调优工作可能迅速贬值；
 - 上述核心研究问题均满足该原则：无论基模如何升级，验证、上下文、协作与流程问题始终存在，且基模越强、这些问题的工程与研究价值越突出。
 
-## 六、研究平台与实践载体：HALF
+## 六、开放实验与公开仓库
 
-HALF（Human-AI Loop Framework）是实验室围绕 AI Coding / Coding Agent 方向建设的基础实验平台，用于支撑人机协同的多 Agent 编程协作、任务分解、Agent 分工、上下文交接、结果追踪和实验数据沉淀。
-
-HALF 不是单纯的工程项目，而是服务于前述研究问题的实验基础设施：
-
-1. **人的介入与控制**：通过人工确认、阶段性审查节点、执行结果追踪等机制，研究人在 AI Coding 流程中的介入时机、控制方式与责任边界（对应「多 Agent 与人机协作」的人侧问题）。
-2. **上下文工程**：通过任务上下文组织、handoff prompt、结构化任务记录与历史经验沉淀等机制，研究上下文组织、压缩、传递与复用方法。
-3. **多 Agent 协作**：通过 DAG 任务流、process template、dev/test/review/eval agent 角色，研究多 Agent 分工、协作、冲突处理和质量保障机制。
-4. **组织级 AI Coding 方法论**：通过真实 Git 工作流、issue/branch/PR 协作、agent 可用性管理等机制，探索企业软件开发流程向 AI Native 模式转型的方法。
-
-- **项目链接**：[keting/half](https://github.com/keting/half)
-- **协作流程参考**：[GitHub 协作规范](github-collaboration-workflow.md)
-
-## 七、开放实验与公开仓库
-
-实验室的部分实验以公开仓库方式进行，可复核、可复跑，欢迎在入组之前就参与：
+实验室的部分实验与平台以公开仓库方式进行，可复核、可复跑，欢迎在入组之前就参与：
 
 - **[Agent Hi Tax](https://github.com/aicodingresearch/agent-hi-tax)**：一句 `hi` 到底消耗多少？对真实 agent harness 的 token、credits、配额与延迟做统一口径、可复核的持续观测。它是「可信验证与评测」问题的一个微型活案例——连最小交互的真实成本，都需要可复核的度量方法才能说清。欢迎按仓库说明提交你所用 harness 的观测数据。
+- **[HALF](https://github.com/keting/half)**（Human-AI Loop Framework）：实验室早期建设的人机协同多 Agent 编程实验平台，沉淀了任务分解、DAG 任务流、dev/test/review/eval 角色分工、handoff prompt 与人工审查节点等机制原型，是「多 Agent 与人机协作」「上下文工程」问题的早期实践载体。配套 [GitHub 协作规范](github-collaboration-workflow.md)。
