@@ -117,6 +117,12 @@ Superpowers 是一个面向 coding agents 的 skills 框架和开发方法论，
 - **一句话**：Karpathy 总结的 AI coding 指南，强调从人类写代码转向人类 review 代码的范式转变。
 - **推荐理由**：提出了”人类从作者变为编辑”的核心观点，以及一系列实用的 AI coding 工作原则（如从小处开始、频繁提交、保持简单等），是理解 AI 辅助编程方法论的重要参考。
 
+### 16. Writing With Agents
+
+- [GitHub](https://github.com/Jeffallan/writing-with-agents)
+- **一句话**：按 Betty Flowers「疯子、建筑师、木匠、法官」写作法拆分写作流程的 Claude Code 插件，共 10 个 skills，主线分为发散素材、选结构、定大纲、写初稿、审校五个阶段，另有 SEO 写作、质量评分和多篇选题规划。
+- **推荐理由**：每个阶段写明由 AI 还是作者主导，适合用来写技术文档、博客和论文初稿；也是把一个人机协作流程拆成多个 skill 的完整样例，与上面的 Fullstack Dev Skills 出自同一作者。
+
 
 
 ---
